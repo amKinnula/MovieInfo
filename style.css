@@ -1,0 +1,86 @@
+body{
+    background-image: url("Tausta.png");
+    background-size: cover;
+    color: whitesmoke;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+    min-height: 100vh;    
+}
+
+h3 {
+    margin-top: 100;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form {
+    min-height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+u {
+    background-color: blue
+}
+
+.leffa-container {
+    margin: auto;
+    width: 60%;
+    border-radius: 10px;
+    background: rgba(171, 0, 0, 0.65)
+}
+
+
+.haku-input {
+    width: 33%;
+    height: 30px;
+}
+
+.tulos {
+    background-image: url("leffa.gif");
+    background-size: cover;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.posteri {
+    width: 180px;
+    height: 260px;
+    margin-left: 38%;
+
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgba(171, 0, 0);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px rgb(41, 41, 41);
+    margin-left: 40%;
+    margin-bottom: 10px;
+}
+  
+.btn:hover {
+    background-color: rgba(160, 0, 0);
+}
+  
+.btn:active {
+    background-color: rgba(180, 0, 0);
+    box-shadow: 0 5px black;
+    transform: translateY(3px);
+}
+
+.leffa-title {
+    font-size: 2rem;
+}

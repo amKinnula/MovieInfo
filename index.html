@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie info</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div class="leffa-container">
+            <div>
+                <div class="content">
+                    <div id="google_translate_element"></div>
+                    <h3 id="otsikko">Find information about movies</h3>
+                    <div id="haku">
+                        <form>
+                            <input type="text" class="haku-input" placeholder="Search for movies...">
+                        </form>
+                        <div id="tulos-lista ">
+                            <div id="tulokset"></div>
+                        </div>
+                    </div>
+                </div>
+                        <button id="uusiHaku" class="btn">Search again</button>
+            </div>
+        </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+</html>
